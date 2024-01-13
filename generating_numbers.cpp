@@ -5,8 +5,8 @@
 static const unsigned First_num = 0 ;
 static const unsigned Second_num = 1 ;
 static const unsigned Without_trace = 0 ;
-static const unsigned First_prev = 1 ;
-static const unsigned Second_prev = 2 ;
+
+// using do/while loop for generate numbers
 
 void get_Fibonacci_numbers(unsigned count ,unsigned  coefficient)
 {
@@ -64,6 +64,8 @@ private:
     unsigned m_next ;
     unsigned m_coefficient ;
 };
+
+// using fibonacci_iterator(forward) for generate numbers
 
 void get_Fibonacci_numbers_2 (unsigned count ,unsigned coefficient)
 {
